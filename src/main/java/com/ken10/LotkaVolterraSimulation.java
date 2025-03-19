@@ -63,7 +63,7 @@ public class LotkaVolterraSimulation {
 
         double startTime = 0.0;
         double endTime = 200.0; // run simulation for 200 time units
-        double stepSize = 0.1; // 0.1 time units per step
+        double stepSize = 0.1; // time units per step
 
         OdeFunction derivatives = new LotkaVolterraDerivatives(alpha, beta, gamma, delta);
 
