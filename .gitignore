@@ -1,1 +1,3 @@
 "target/\n*.log\n*.class\n.mvn/\n.idea/\n*.iml" 
+"*.class" 
+"target/" 
